@@ -2,6 +2,11 @@
 from pathlib import Path
 import pandas as pd
 
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DATA_PATH = PROJECT_ROOT / "data" / "raw" / "sales_data.csv"
+
+df = pd.read_csv(DATA_PATH)
+
 def main():
 
     df = pd.read_csv("/Users/danielgarcia/Downloads/Sales Data - Year 2009-2010.csv")
