@@ -9,8 +9,6 @@ df = pd.read_csv(DATA_PATH)
 
 def main():
 
-    df = pd.read_csv("/Users/danielgarcia/Downloads/Sales Data - Year 2009-2010.csv")
-
     original_rows = len(df)
     original_columns = len(df.columns)
 
